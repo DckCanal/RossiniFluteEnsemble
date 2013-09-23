@@ -3,14 +3,41 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-5">
 			<h1>RFE app</h1>
 			<p>Riquadro sulla sinistra: breve introduzione al gruppo, idee e stile, tipi di musica, categorie di eventi. Accoglienza ed 					introduzione al sito.</p>
 			<p>Sulla destra uno slider di foto varie, da raccogliere.</p>
 			<p>In alto, titolo (arancione, su sfondo grigio) e navbar.</p>
 		</div>
-		<div class="col-md-8">
-			<h2>Qui ci sta una bella gallery</h2>
+		<div class="col-md-7">
+			<div class="carousel slide" id="photo-gallery">
+    			<ol class="carousel-indicators">
+        		<li data-target="#photo-gallery" data-slide-to="0" class="active"></li>
+        		<li data-target="#photo-gallery" data-slide-to="1"></li>
+        		<li data-target="#photo-gallery" data-slide-to="2"></li>
+    			</ol>
+    
+    			<div class="carousel-inner">
+        		<div class="item active">
+            	<%= image_tag('RFE.jpg', alt: 'Foto gruppo')%>
+        		</div>
+        	<div class="item">
+            <%= image_tag('ProveLOTR.jpg', alt: 'Prove')%>
+            <div class="carousel-caption">Prime prove colonne sonore Signore degli Anelli</div>
+        	</div>
+        	<div class="item">
+            <%= image_tag('RFE_color.jpg', alt: 'Foto gruppo')%>
+        	</div>
+    	</div>
+    
+    <a href="#photo-gallery" data-slide="prev" class="left carousel-control">
+        <span class="icon-prev"></span>
+    </a>
+    <a href="#photo-gallery" data-slide="next" class="right carousel-control">
+        <span class="icon-next"></span>
+    </a>
+    
+</div>
 		</div>
 	</div>
 
