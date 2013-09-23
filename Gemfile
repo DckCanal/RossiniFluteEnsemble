@@ -58,3 +58,11 @@ end
 group :development do
 	gem 'rspec-rails'
 end
+
+#gem 'bootstrap-sass'
+
+#gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                          :github => 'anjlab/bootstrap-rails',
+                          :branch => '3.0.0'
