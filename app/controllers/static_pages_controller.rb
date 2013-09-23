@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def contatti
   end
+	
+	def repertorio
+	end
 end
