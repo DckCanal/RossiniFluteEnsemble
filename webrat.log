@@ -1,0 +1,16 @@
+# Logfile created on 2013-09-23 15:18:17 +0200 by logger.rb/36483
+D, [2013-09-23T15:18:17.096240 #2851] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:20:25.782685 #2927] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:23:04.722155 #2959] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:23:54.065158 #2972] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:25:10.827485 #2993] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:25:55.621943 #3003] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:26:40.816965 #3020] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:27:29.078735 #3030] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:28:46.905499 #3044] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:29:16.540345 #3051] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:34:05.068873 #3104] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:37:53.918666 #3161] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:38:09.456347 #3166] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:38:48.890385 #3175] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-09-23T15:48:10.118330 #3327] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}

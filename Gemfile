@@ -51,7 +51,8 @@ group :test do
 	gem 'redgreen'
 	gem 'test-unit'
 	gem 'rspec'
-	gem 'webrat'
+	#gem 'webrat'
+	gem 'capybara'
 end
 
 group :development do
