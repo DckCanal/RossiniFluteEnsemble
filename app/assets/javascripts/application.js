@@ -15,3 +15,20 @@
 //= require turbolinks
 //= require_tree .
 //= require twitter/bootstrap
+
+function oxy(){
+		$("body p:not(.lead)").css("font-family", "'Oxygen', sans-serif");
+		
+}
+    	
+function ral400(){
+   $("body p:not(.lead)").css({
+    "font-family": "'Raleway', sans-serif",
+    "font-weight": '400'});
+}
+    	
+function ral300(){
+   $("body p:not(.lead)").css({
+    "font-family": "'Raleway', sans-serif",
+    "font-weight": '300'});
+}

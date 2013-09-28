@@ -1,9 +1,15 @@
 RossiniFluteEnsemble::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/curriculum"
-  get "static_pages/eventi"
-  get "static_pages/contatti"
-	get "static_pages/repertorio"
+  #get "static_pages/home"
+  #get "static_pages/curriculum"
+  #get "static_pages/eventi"
+  #get "static_pages/contatti"
+	#get "static_pages/repertorio"
+	
+	match '/eventi', to: 'static_pages#eventi', via: 'get'
+	match '/contatti', to: 'static_pages#contatti', via: 'get'
+	match '/repertorio', to: 'static_pages#repertorio', via: 'get'
+	match '/curriculum', to: 'static_pages#curriculum', via: 'get'
+	root 'static_pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

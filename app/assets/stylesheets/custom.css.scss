@@ -1,1 +1,25 @@
 /*@import "bootstrap";*/
+@import "twitter/bootstrap";
+
+header > h1{
+	font-family: 'Parisienne', cursive;
+	/*background-image: url('pentagramma.jpeg');*/
+	background-color: #cccccc;
+	/*background-repeat: no-repeat;
+	height: 75px;*/
+	padding: 10px 10px;
+}
+
+
+body h2,h3,h4{
+	font-family: 'Kite One', sans-serif;
+}
+
+p.lead{
+	font-family: 'Petit Formal Script', cursive;
+}
+
+body p,ul{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}

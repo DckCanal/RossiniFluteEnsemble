@@ -33,11 +33,16 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
+      <!--<li><a href="#">Home</a></li>
       <li><a href="#">Eventi</a></li>
       <li><a href="#">Curriculum</a></li>
 			<li><a href="#">Repertorio</a></li>
-			<li><a href="#">Contatti</a></li>
+			<li><a href="#">Contatti</a></li>-->
+      <li><%= link_to 'Home' , root_path %></li>
+      <li><%= link_to 'Eventi' , eventi_path %></li>
+      <li><%= link_to 'Curriculum' , curriculum_path %></li>
+      <li><%= link_to 'Repertorio' , repertorio_path %></li>
+      <li><%= link_to 'Contatti' , contatti_path %></li>
       
     </ul>
     
